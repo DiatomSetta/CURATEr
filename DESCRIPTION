@@ -1,11 +1,15 @@
 Package: SDDQA
-Title: What the Package Does (One Line, Title Case)
+Title: Sequence Data Decontamination and Quality Assurance
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Samantha", "Setta", , "ssetta@uw.edu", role = c("aut", "cre"), 
+            comment = c(ORCID = "0000-0001-9075-7573"))
+Description: This package uses sequencing data to run decontamination with 
+              negative and positive controls, merge sequences across multiple 
+              sequencing runs based on sequence exact matching, run depth, 
+              diversity, replicate filtering, and finally run the last quality 
+              and optional filtering steps.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
