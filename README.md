@@ -7,7 +7,13 @@
 
 <!-- badges: end -->
 
-The goal of SDDQA is to …
+SDDQA is your one stop shop for all things metabarcoding run sequencing
+data decontamination and quality assurance. The process is broken up
+into four steps, 1) decontamination with negative and positive controls,
+2) merging across sequencing runs, 3) depth, diversity and replicate
+filtering of seqs, and 4) final filtering and optional steps.
+
+*Note: This package is currently under development*
 
 ## Installation
 
@@ -28,26 +34,24 @@ library(SDDQA)
 ## basic example code
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
-
-``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
-```
-
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date. `devtools::build_readme()` is handy for this.
+<!-- You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. -->
 
 You can also embed plots, for example:
 
-<img src="man/figures/README-pressure-1.png" alt="" width="100%" />
+<img src="man/figures/README-decontam-diagram.jpg" alt="" width="100%" style="display: block; margin: auto;" />
 
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub and CRAN.
+## Disclaimer
+
+This repository is a scientific product and is not official
+communication of the National Oceanic and Atmospheric Administration, or
+the United States Department of Commerce. All NOAA GitHub project code
+is provided on an ‘as is’ basis and the user assumes responsibility for
+its use. Any claims against the Department of Commerce or Department of
+Commerce bureaus stemming from the use of this GitHub project will be
+governed by all applicable Federal law. Any reference to specific
+commercial products, processes, or services by service mark, trademark,
+manufacturer, or otherwise, does not constitute or imply their
+endorsement, recommendation or favoring by the Department of Commerce.
+The Department of Commerce seal and logo, or the seal and logo of a DOC
+bureau, shall not be used in any manner to imply endorsement of any
+commercial product or activity by DOC or the United States Government.
