@@ -40,9 +40,9 @@ You can also embed plots, for example:
 
 <img src="man/figures/README-decontam-diagram.jpg" alt="" width="100%" style="display: block; margin: auto;" />
 
-## Disclaimer
+### Disclaimer
 
-This repository is a scientific product and is not official
+*This repository is a scientific product and is not official
 communication of the National Oceanic and Atmospheric Administration, or
 the United States Department of Commerce. All NOAA GitHub project code
 is provided on an ‘as is’ basis and the user assumes responsibility for
@@ -54,4 +54,4 @@ manufacturer, or otherwise, does not constitute or imply their
 endorsement, recommendation or favoring by the Department of Commerce.
 The Department of Commerce seal and logo, or the seal and logo of a DOC
 bureau, shall not be used in any manner to imply endorsement of any
-commercial product or activity by DOC or the United States Government.
+commercial product or activity by DOC or the United States Government.*
