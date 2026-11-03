@@ -27,11 +27,19 @@ pak::pak("DiatomSetta/SDDQA")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is the first function coded within `ome_utilities` to join faire metadata for decontam:
 
 ``` r
 library(SDDQA)
-## basic example code
+## If pulling from google spreadsheet:
+join_faire_metadata(google_doc = TRUE,
+                    googledoc_url = "https://docs.google.com/spreadsheets/example",
+                     output_dir = "data/decontamination")
+## If pulling from downloaded faire sample metadata:
+join_faire_metadata(input_dir = "data/raw",
+                    sample_metadata = "sampleMetadata_faire.csv",
+                    experiment_run_file = "experimentRunMetadata_faire.csv",
+                    output_dir = "data/decontamination")
 ```
 
 <!-- You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. -->
