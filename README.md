@@ -22,7 +22,7 @@ You can install the development version of SDDQA from
 
 ``` r
 # install.packages("pak")
-pak::pak("DiatomSetta/SDDQA")
+pak::pak("DiatomSetta/CURATEr")
 ```
 
 ## Example
