@@ -7,17 +7,17 @@
 
 <!-- badges: end -->
 
-CURATEr is your one stop shop for all things metabarcoding run sequencing
-data decontamination and quality assurance. The process is broken up
-into four steps, 1) decontamination with negative and positive controls,
-2) merging across sequencing runs, 3) depth, diversity and replicate
-filtering of seqs, and 4) final filtering and optional steps.
+CURATEr is your one stop shop for all things metabarcoding run
+sequencing data decontamination and quality assurance. The process is
+broken up into four steps, 1) decontamination with negative and positive
+controls, 2) merging across sequencing runs, 3) depth, diversity and
+replicate filtering of seqs, and 4) final filtering and optional steps.
 
 *Note: This package is currently under development*
 
 ## Installation
 
-You can install the development version of SDDQA from
+You can install the development version of CURATEr from
 [GitHub](https://github.com/) with:
 
 ``` r
@@ -27,19 +27,11 @@ pak::pak("DiatomSetta/CURATEr")
 
 ## Example
 
-This is the first function coded within `ome_utilities` to join faire metadata for decontam:
+This is a basic example which shows you how to solve a common problem:
 
 ``` r
-library(SDDQA)
-## If pulling from google spreadsheet:
-join_faire_metadata(google_doc = TRUE,
-                    googledoc_url = "https://docs.google.com/spreadsheets/example",
-                     output_dir = "data/decontamination")
-## If pulling from downloaded faire sample metadata:
-join_faire_metadata(input_dir = "data/raw",
-                    sample_metadata = "sampleMetadata_faire.csv",
-                    experiment_run_file = "experimentRunMetadata_faire.csv",
-                    output_dir = "data/decontamination")
+library(CURATEr)
+## basic example code
 ```
 
 <!-- You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. -->

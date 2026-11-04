@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# CURATE: Contamination and Uncertainty Removal, Assessment, and Taxonomic Evaluation in R
+# CURATEr: Contamination and Uncertainty Removal, Assessment, and Taxonomic Evaluation in R
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -24,7 +24,7 @@ CURATEr is your one stop shop for all things metabarcoding run sequencing data d
 
 ## Installation
 
-You can install the development version of SDDQA from [GitHub](https://github.com/) with:
+You can install the development version of CURATEr from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("pak")

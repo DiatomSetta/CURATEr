@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(SDDQA)
+library(CURATEr)
 
-test_check("SDDQA")
+test_check("CURATEr")

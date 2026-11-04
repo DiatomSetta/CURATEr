@@ -1,5 +1,5 @@
-Package: SDDQA
-Title: Sequence Data Decontamination and Quality Assurance
+Package: CURATEr
+Title: Contamination and Uncertainty Removal, Assessment, and Taxonomic Evaluation in R
 Version: 0.0.0.9000
 Authors@R: 
     person("Samantha", "Setta", , "ssetta@uw.edu", role = c("aut", "cre"), 
@@ -17,8 +17,8 @@ Suggests:
     mockery,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
-URL: https://github.com/DiatomSetta/SDDQA
-BugReports: https://github.com/DiatomSetta/SDDQA/issues
+URL: https://github.com/DiatomSetta/CURATEr
+BugReports: https://github.com/DiatomSetta/CURATEr/issues
 Imports: 
     dplyr,
     googlesheets4,
