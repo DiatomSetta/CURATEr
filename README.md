@@ -1,13 +1,13 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# SDDQA
+# CURATEr: Contamination and Uncertainty Removal, Assessment, and Taxonomic Evaluation in R
 
 <!-- badges: start -->
 
 <!-- badges: end -->
 
-SDDQA is your one stop shop for all things metabarcoding run sequencing
+CURATEr is your one stop shop for all things metabarcoding run sequencing
 data decontamination and quality assurance. The process is broken up
 into four steps, 1) decontamination with negative and positive controls,
 2) merging across sequencing runs, 3) depth, diversity and replicate
